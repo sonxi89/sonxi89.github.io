@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- modal -->
+      <div class="modal">
+        <div class="modal-container" id="todo_form">
+          <div class="modal-header">
+            <p>Create New Modal</p>
+          </div>
+
+          <div class="modal-close">
+            <i class="ti-close">&times;</i>
+          </div>
+
+          <div class="modal-body">
+            <input type="text" class="modal-input" />
+            <input type="submit" value="Add Modal" class="modal-submit" />
+          </div>
+        </div>
+      </div>
+
+      <div class="status" id="no-status">
+        <h1 class="text-status">No Status</h1>
+        <button class="add_btn js-add-modal">+ Add Todo</button>
+      </div>
+      <div class="status">
+        <h1 class="text-status">Not Started</h1>
+      </div>
+      <div class="status">
+        <h1 class="text-status">In Progress</h1>
+      </div>
+      <div class="status">
+        <h1 class="text-status">Completed</h1>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
